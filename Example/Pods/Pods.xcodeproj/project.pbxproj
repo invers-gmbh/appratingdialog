@@ -44,17 +44,17 @@
 
 /* Begin PBXFileReference section */
 		0AD61B2386F4D9F2156B74F6E290ABF1 /* AppRatingDialogTextConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRatingDialogTextConstants.swift; path = AppRatingDialog/Classes/AppRatingDialogTextConstants.swift; sourceTree = "<group>"; };
-		0D3583BE5771832696442860101D66C2 /* AppRatingDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppRatingDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3583BE5771832696442860101D66C2 /* AppRatingDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AppRatingDialog.framework; path = AppRatingDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FCF80A15E0F5B1D4EF198F33C51BCF1 /* Pods-AppRatingDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRatingDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
 		196615FB03677ABB7239872AF63250F5 /* Pods-AppRatingDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRatingDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E2F566E120E5846C3862205AE0615AA /* Pods-AppRatingDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppRatingDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		261013679074A02C0741FD368B874056 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		261013679074A02C0741FD368B874056 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		42FB88F04C63346F8D94448197897559 /* Pods-AppRatingDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRatingDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		465F87B9BAE559503E54799B6B3A44DE /* AppRatingDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AppRatingDialog.modulemap; sourceTree = "<group>"; };
 		473E8914562B836C61ED61AFC937E7B4 /* Pods-AppRatingDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppRatingDialog_Tests-dummy.m"; sourceTree = "<group>"; };
 		4BA38FF8DFF6C4F58873B705216DB194 /* Pods-AppRatingDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRatingDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4ED5C0DD63B536C8B1E37F522216B632 /* Pods_AppRatingDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRatingDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED5C0DD63B536C8B1E37F522216B632 /* Pods_AppRatingDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRatingDialog_Example.framework; path = "Pods-AppRatingDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EDA7D1973F3CEBAF6C5441E8795C47 /* Pods-AppRatingDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRatingDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5BD2965E64328B00A22C7243C9C5207F /* AppRatingDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppRatingDialog.xcconfig; sourceTree = "<group>"; };
 		5E52414445DCB4B6767C3BD478386A12 /* AppRatingDialogLogic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRatingDialogLogic.swift; path = AppRatingDialog/Classes/AppRatingDialogLogic.swift; sourceTree = "<group>"; };
@@ -62,12 +62,12 @@
 		8706B5231F4AD8A19CD1198DAAC3068D /* Pods-AppRatingDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppRatingDialog_Example-umbrella.h"; sourceTree = "<group>"; };
 		8C9D72DA5C5083318A5E9FB469130178 /* AppRatingDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppRatingDialog-umbrella.h"; sourceTree = "<group>"; };
 		93E9D986F58D1E4CFE212392B4B9043F /* Pods-AppRatingDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRatingDialog_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4F45EB2712817E93F09E083AA47A7BF /* AppRatingDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppRatingDialog-prefix.pch"; sourceTree = "<group>"; };
 		AAA01A46F1B2A881D57579CCE24710B5 /* Pods-AppRatingDialog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppRatingDialog_Tests-Info.plist"; sourceTree = "<group>"; };
 		B1C42FCA22C3E50FBC7A50A169D24C92 /* AppRatingDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppRatingDialog-dummy.m"; sourceTree = "<group>"; };
 		B2292E779295A281B564DCBE3A481A30 /* Pods-AppRatingDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppRatingDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B27934B852DA9C089FFCE72702080F98 /* Pods_AppRatingDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppRatingDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27934B852DA9C089FFCE72702080F98 /* Pods_AppRatingDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AppRatingDialog_Tests.framework; path = "Pods-AppRatingDialog_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0674B7AB04086E66BDB0DE943008FD /* Pods-AppRatingDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppRatingDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BE7EF3DDB209315FA17FBD74E122F546 /* AppRatingDialogView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AppRatingDialogView.xib; path = AppRatingDialog/Assets/AppRatingDialogView.xib; sourceTree = "<group>"; };
 		CAF7DDBEAD3E6D957FE692404A30C290 /* Pods-AppRatingDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppRatingDialog_Tests.modulemap"; sourceTree = "<group>"; };
@@ -79,8 +79,8 @@
 		EBC57841D5C5F3320EA99A9C351AF86B /* AppRatingDialogMFMailComposeViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRatingDialogMFMailComposeViewControllerDelegate.swift; path = AppRatingDialog/Classes/AppRatingDialogMFMailComposeViewControllerDelegate.swift; sourceTree = "<group>"; };
 		F0DA987142410DCFEF410517A9D00E52 /* AppRatingDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRatingDialogView.swift; path = AppRatingDialog/Classes/AppRatingDialogView.swift; sourceTree = "<group>"; };
 		F1DE61BB963C1930E890BAF069E68506 /* AppRatingDialogConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppRatingDialogConstants.swift; path = AppRatingDialog/Classes/AppRatingDialogConstants.swift; sourceTree = "<group>"; };
-		F2AFF74853F369E797939A0E937C5088 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		FE30BAC829DDE0BDFFCB468F062ECE57 /* AppRatingDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AppRatingDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2AFF74853F369E797939A0E937C5088 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE30BAC829DDE0BDFFCB468F062ECE57 /* AppRatingDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AppRatingDialog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -436,38 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10E527A17D9F99881E0CD92235B165F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD2965E64328B00A22C7243C9C5207F /* AppRatingDialog.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AppRatingDialog/AppRatingDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog.modulemap";
-				PRODUCT_MODULE_NAME = AppRatingDialog;
-				PRODUCT_NAME = AppRatingDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,6 +497,38 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		386F8610B61D14738246B8526DE0CE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD2965E64328B00A22C7243C9C5207F /* AppRatingDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppRatingDialog/AppRatingDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog.modulemap";
+				PRODUCT_MODULE_NAME = AppRatingDialog;
+				PRODUCT_NAME = AppRatingDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -670,39 +670,6 @@
 			};
 			name = Release;
 		};
-		A41EED6C9C964B6416AA0F8F6F48D81F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BD2965E64328B00A22C7243C9C5207F /* AppRatingDialog.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AppRatingDialog/AppRatingDialog-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog.modulemap";
-				PRODUCT_MODULE_NAME = AppRatingDialog;
-				PRODUCT_NAME = AppRatingDialog;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B102853BB3392A16E68667C38114BC6A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -756,9 +723,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DAFA6E8C6C59D37A6081338DC0833EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD2965E64328B00A22C7243C9C5207F /* AppRatingDialog.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AppRatingDialog/AppRatingDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AppRatingDialog/AppRatingDialog.modulemap";
+				PRODUCT_MODULE_NAME = AppRatingDialog;
+				PRODUCT_NAME = AppRatingDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -768,8 +769,8 @@
 		14B5FBE6BFBB0742C6D21BF51D86EFB5 /* Build configuration list for PBXNativeTarget "AppRatingDialog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10E527A17D9F99881E0CD92235B165F8 /* Debug */,
-				A41EED6C9C964B6416AA0F8F6F48D81F /* Release */,
+				386F8610B61D14738246B8526DE0CE37 /* Debug */,
+				DAFA6E8C6C59D37A6081338DC0833EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

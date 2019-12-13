@@ -13,9 +13,9 @@ class AppRatingDialogLogic {
     
     private var currentVersion: String? {
         get {
-            #if TESTS
-            return "1.0.0"
-            #endif
+//            #if TESTS
+//            return "1.0.0"
+//            #endif
             return Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
         }
     }
@@ -37,10 +37,9 @@ class AppRatingDialogLogic {
     }
     
     func isAllowedToShowRatingView() -> Bool {
-        #if DEBUG
-        return true
-        #endif
-        
+//        #if DEBUG
+//        return true
+//        #endif
         return isDateNotInLastFourMonths() && currentVersion != self.lastKnowVersion
     }
 }
