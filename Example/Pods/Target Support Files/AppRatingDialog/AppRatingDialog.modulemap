@@ -1,0 +1,6 @@
+framework module AppRatingDialog {
+  umbrella header "AppRatingDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

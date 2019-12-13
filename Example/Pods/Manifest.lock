@@ -1,0 +1,16 @@
+PODS:
+  - AppRatingDialog (0.1.7)
+
+DEPENDENCIES:
+  - AppRatingDialog (from `../`)
+
+EXTERNAL SOURCES:
+  AppRatingDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppRatingDialog: e40fa90c0ea4194e01b72e4b7bd72b3181df75aa
+
+PODFILE CHECKSUM: 6f66e70b673d9780d2c362e1eee92b404be19346
+
+COCOAPODS: 1.8.4

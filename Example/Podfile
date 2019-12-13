@@ -1,0 +1,12 @@
+platform :ios, '10.3'
+use_frameworks!
+
+target 'AppRatingDialog_Example' do
+  pod 'AppRatingDialog', :path => '../'
+
+  target 'AppRatingDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

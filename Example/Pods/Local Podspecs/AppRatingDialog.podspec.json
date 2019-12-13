@@ -1,0 +1,24 @@
+{
+  "name": "AppRatingDialog",
+  "version": "0.1.7",
+  "summary": "AppRatingDialog is a practically framework for getting app store reviews or feedback via email.",
+  "homepage": "https://github.com/invers-gmbh/appratingdialog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuzdu": "rothkegel.michael@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/invers-gmbh/appratingdialog.git",
+    "tag": "0.1.7"
+  },
+  "platforms": {
+    "ios": "10.3"
+  },
+  "source_files": "appratingdialog/Classes/**/*.swift",
+  "resources": [
+    "appratingdialog/Assets/**/*.xib"
+  ]
+}
