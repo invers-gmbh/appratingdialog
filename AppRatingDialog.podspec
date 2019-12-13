@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AppRatingDialog'
-    s.version          = '0.1.7'
+    s.version          = '0.0.1'
     s.summary          = 'AppRatingDialog is a practically framework for getting app store reviews or feedback via email.'
     
     s.homepage         = 'https://github.com/invers-gmbh/appratingdialog'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'kuzdu' => 'rothkegel.michael@gmail.com' }
+    s.author           = { 'Michael Rothkegel' => 'rothkegel.michael@gmail.com' }
     s.source           = { :git => 'https://github.com/invers-gmbh/appratingdialog.git', :tag => s.version.to_s }
    
     s.swift_versions = ['5.0', '5.1']
