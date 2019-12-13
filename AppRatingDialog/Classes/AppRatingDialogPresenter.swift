@@ -35,7 +35,7 @@ public class AppRatingDialogPresenter {
     public func showRating() {
         removeViews()
         
-        if !appRatingDialogLogic.isAllowedToShowRatingView() && appRateDialogView == nil {
+        if !appRatingDialogLogic.isAllowedToShowRatingView() {
             return
         }
                 

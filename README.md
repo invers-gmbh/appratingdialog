@@ -73,7 +73,7 @@ All text keys:
 ```
 
 Example:
-```
+```swift
     AppRatingDialogTextConstants.shared.initialTitle = "Please rate"
 ```
 
