@@ -8,8 +8,8 @@
 ## How it looks like
 
 ![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_init.png "Initial Screen")
-![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_rate.png "Apples Rating Dialog")
 ![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_dislike.png "When user does not like your app")
+![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_rate.png "Apples Rating Dialog")
 
 ## Installation
 
