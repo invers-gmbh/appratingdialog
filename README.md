@@ -7,9 +7,9 @@
 
 ## How it looks like
 
-![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_init "Initial Screen")
-![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_rate "Apples Rating Dialog")
-![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_dislike "When user does not like your app")
+![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_init.png "Initial Screen")
+![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_rate.png "Apples Rating Dialog")
+![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/example_dislike.png "When user does not like your app")
 
 ## Installation
 
@@ -31,9 +31,9 @@ Apple recommends
 > Make the request when users are most likely to feel satisfaction with your app, such as when they’ve completed an action, level, or task.
 > Make sure not to interrupt their activity.
 
-Further indications are that the user may only be asked about the StoreKit *3 times a year*. AppRatingDialog takes care of this. In addition, users who do not like the app are asked to send feedback by e-mail. 
+Further indications are that the user may only be asked about the StoreKit *3 times a year*. AppRatingDialog takes care of this. In addition, users who do not like the app are asked to send feedback by email. 
 
-![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/app_rating_dialog_flow "App Rating Dialog Flow`")
+![alt text](https://github.com/invers-gmbh/appratingdialog/blob/master/example_images/app_rating_dialog_flow.png "App Rating Dialog Flow`")
 
 Please check out the `App Rating Dialog Flow`. Of course you can edit the appearance as well as the text keys and views. See the documentation and/or the example.
 
