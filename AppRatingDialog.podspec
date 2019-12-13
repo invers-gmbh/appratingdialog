@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AppRatingDialog'
-    s.version          = '0.0.2'
+    s.version          = '0.0.3'
     s.summary          = 'AppRatingDialog is a practically framework for getting app store reviews or feedback via email.'
     
     s.homepage         = 'https://github.com/invers-gmbh/appratingdialog'
