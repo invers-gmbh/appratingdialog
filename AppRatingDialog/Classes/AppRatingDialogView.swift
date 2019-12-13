@@ -9,10 +9,10 @@ import Foundation
 import UIKit
 
 public class AppRatingDialogView: UIView {
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var messageLabel: UILabel!
-    @IBOutlet weak var yesButton: UIButton!
-    @IBOutlet weak var noButton: UIButton!
+    @IBOutlet public weak var titleLabel: UILabel!
+    @IBOutlet public weak var messageLabel: UILabel!
+    @IBOutlet public weak var yesButton: UIButton!
+    @IBOutlet public weak var noButton: UIButton!
     
     @IBAction func noButtonAction(_ sender: Any) {
         onNoButton?()

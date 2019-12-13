@@ -18,16 +18,18 @@ public class AppRatingDialogPresenter {
     private let appRateDialogMailDelegate = AppRatingDialogMFMailComposeViewControllerDelegate()
     private let appRatingDialogLogic = AppRatingDialogLogic()
 
-    private var appRateDialogView: AppRatingDialogView?
     private var backgroundView: UIView?
     
     private var hasAnsweredFirstQuestion = false
     private var bottomConstraint: NSLayoutConstraint!
+
+    public var appRateDialogView: AppRatingDialogView!
     
     // MARK: - public state
     public init(viewController: UIViewController, feedbackMailRecipient: String) {
         self.viewController = viewController
         self.feedbackMailRecipient = feedbackMailRecipient
+        self.appRateDialogView = initRateView()
     }
     
     public func showRating() {
@@ -36,16 +38,13 @@ public class AppRatingDialogPresenter {
         if !appRatingDialogLogic.isAllowedToShowRatingView() && appRateDialogView == nil {
             return
         }
-        
-        let loadedAppRateView = initRateView()
-        appRateDialogView = loadedAppRateView
-        
+                
         let loadedBackgroundView = initBackgroundView()
         backgroundView = loadedBackgroundView
         
         addBackground(backgroundView: loadedBackgroundView)
-        addRateView(appRateView: loadedAppRateView)
-        initConstraints(for: loadedAppRateView)
+        addRateView(appRateView: appRateDialogView)
+        initConstraints(for: appRateDialogView)
         showRateViewAnimation()
     }
     
@@ -63,7 +62,7 @@ public class AppRatingDialogPresenter {
         loadedAppRateView.backgroundColor = UIColor.white
         
         loadedAppRateView.titleLabel.text = AppRatingDialogTextConstants.shared.initialTitle
-        loadedAppRateView.titleLabel.textColor = UIColor.black
+        loadedAppRateView.titleLabel.textColor = loadedAppRateView.titleLabel.textColor
         
         loadedAppRateView.messageLabel.text = AppRatingDialogTextConstants.shared.initialMessage
         loadedAppRateView.messageLabel.textColor = UIColor.black
@@ -71,9 +70,9 @@ public class AppRatingDialogPresenter {
         loadedAppRateView.yesButton.setTitleColor(UIColor.white, for: .normal)
         loadedAppRateView.yesButton.backgroundColor = UIColor.blue
         loadedAppRateView.yesButton.layer.cornerRadius = 10
-        loadedAppRateView.yesButton.setTitle(AppRatingDialogTextConstants.shared.initalPositivButtonTitle, for: .normal)
+        loadedAppRateView.yesButton.setTitle(AppRatingDialogTextConstants.shared.initialPositiveButtonTitle, for: .normal)
         
-        loadedAppRateView.noButton.setTitle(AppRatingDialogTextConstants.shared.initalNegativButtonTitle, for: .normal)
+        loadedAppRateView.noButton.setTitle(AppRatingDialogTextConstants.shared.initialNegativeButtonTitle, for: .normal)
         loadedAppRateView.noButton.layer.cornerRadius = 10
         loadedAppRateView.noButton.layer.borderColor = UIColor.blue.cgColor
         loadedAppRateView.noButton.layer.borderWidth = 1.0
@@ -204,8 +203,8 @@ public class AppRatingDialogPresenter {
         UIView.animate(withDuration: 0.125, animations: {
             self.appRateDialogView?.messageLabel.alpha = 0.1
         }) { (_) in
-            self.appRateDialogView?.yesButton.setTitle(AppRatingDialogTextConstants.shared.noLikePositivButtonTitle, for: .normal)
-            self.appRateDialogView?.noButton.setTitle(AppRatingDialogTextConstants.shared.noLikeNegativButtonTitle, for: .normal)
+            self.appRateDialogView?.yesButton.setTitle(AppRatingDialogTextConstants.shared.noLikePositiveButtonTitle, for: .normal)
+            self.appRateDialogView?.noButton.setTitle(AppRatingDialogTextConstants.shared.noLikeNegativeButtonTitle, for: .normal)
             self.appRateDialogView?.messageLabel.text = AppRatingDialogTextConstants.shared.noLikeMessage
             self.appRateDialogView?.titleLabel.text = AppRatingDialogTextConstants.shared.noLikeTitle
             
